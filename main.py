@@ -3,7 +3,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sklearn as sk
 
+set1 = "/Users/colekeim/Downloads/Programming/Analytics Lab/Red Wine ML/winequality-red.csv"
 # Load the dataset
-df = pd.read_csv('winequality-red.csv') # default reading
+df = pd.read_csv(set1) # default reading
 
-print(df.head()) # print the first 5 rows of the dataset
+# print(df.head())
+# print(df.dtypes) 
+print(df.describe())
+
